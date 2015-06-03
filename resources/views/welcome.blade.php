@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
+    <meta name="description" content="Servicios de localización en tiempo real">
     <meta name="author" content="">
 
     <title>One Tracker</title>
@@ -13,6 +13,20 @@
     <link href="api/bootstrap.min.css" rel="stylesheet">
 
     <link href="api/style.css" rel="stylesheet">
+
+	<!-- SEO -->	
+	<meta name="keywords" content="gps,localizacion,ubicacion,monitoreo,satelital,vehiculos,maquinaria,amarilla,transporte,control,familiar" />
+    <meta property='og:title' content="Onetracker - Servicios de localización en tiempo real" /> <!-- facebook -->
+    <meta property='og:description' content="Servicios de localización en tiempo real" />
+    <meta property='og:type' content='website' />
+    <meta property='og:url' content='http://onetrackergps.co' />
+	<meta property="og:site_name" content="Onetracker - Servicios de localización en tiempo real">    
+
+<!--   
+    <meta property='og:image' content="http://cdn.undertrail.com/img/facebook.png" />
+-->	
+
+
   </head>
 <!-- NAVBAR
 ================================================== -->
