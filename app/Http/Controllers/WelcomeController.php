@@ -38,4 +38,9 @@ class WelcomeController extends Controller {
 		return view('hola');
 	}
 
+	public function society()
+	{
+		return view('society');
+	}
+
 }

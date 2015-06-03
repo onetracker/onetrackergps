@@ -15,9 +15,13 @@ Route::get('/', 'WelcomeController@index');
 
 Route::get('home', 'HomeController@index');
 
+Route::post('contact/save/', ['as' => 'contact/save/', 'uses' => 'ContactformController@contact_save']);
+
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
 
 Route::get('hola', 'WelcomeController@hola');
+Route::get('society', 'WelcomeController@society');
+Route::get('contact', 'ContactformController@contact');
