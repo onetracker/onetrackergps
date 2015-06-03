@@ -60,56 +60,6 @@
     </div>
 
 
-    <!-- Carousel
-    ================================================== -->
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner" role="listbox">
-      <div class="item active">
-          <img src="img/satelite.jpg" alt="first slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>GPS Rastreo satelital.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="second-slide" src="img/maquinaris.jpg" style="max-width:100%;" width="2000" height="1000" alt="first-slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Maquinaria Amarilla</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis rhoncus dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
-            </div>
-          </div>
-        </div>
-        <div class="item">
-          <img class="third-slide" src="img/bicicleta.jpg" width="1721" height="968" alt="third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Localizadores GPS para bicicletas.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"><img src="img/left-arrow.png" width="30" height="30" alt="arrow"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"><img src="img/right-arrow.png" width="30" height="30" alt="arrow"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div><!-- /.carousel -->
 
 
     <!-- Marketing messaging and featurettes
@@ -120,25 +70,25 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-4">
-          <img src="img/transport-icon.png" width="80" height="98" alt="localizador personal">
-          <h2>Localizador personal</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">Leer más &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img src="img/bici.png" width="100" height="100" alt="bici">
-<h2>GPS En Movimiento</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">Leer más &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img src="img/iphone.png" width="60" height="94" alt="iphone">
-<h2>GPS Familiar</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">Leer más &raquo;</a></p>
+        <div class="col-lg-5">
+
+			<br/><br/><br/><br/><br/><br/><br/><h2 id="mision">MISION</h2>
+			<p>Hemos asumido el compromiso y la responsabilidad de representar, defender y promover las actividades de monitoreo satelital vehicular de GPS con la más alta calidad en Colombia, proporcionándoles servicios de calidad que cumplan con las expectativas y  anticiparnos a las necesidades con excelencia, efectividad y desarrollo de nuestros clientes y colaboradores.</p>
+			
+			<br/><br/><br/><br/><br/><br/><br/><h2 id="vision">VISION</h2>
+			<p>Posicionarnos para el 2016  en el mercado de las principales ciudades a nivel nacional,   alcanzando el liderazgo y garantizando  la protección a quienes requieran de nuestros servicios para que tengan la confianza y tranquilidad de contar con la empresa de más rápido y mejor crecimiento a nivel mundial.</p>
+			
+			<br/><br/><br/><br/><br/><br/><br/><h2 id="valores">VALORES</h2>
+			
+			<p>CALIDAD: Garantizar que los productos y servicios ofrecidos sean de excelencia.</p>
+			<p>HONESTIDAD: Promover la verdad como una herramienta elemental para generar confianza y la credibilidad de la empresa.</p>
+			<p>SERVICIO: La empresa se compromete a entregar bienes y servicios de calidad. </p>
+			<p>CONFIDENCIALIDAD: Generar un vínculo de confianza, donde los clientes se sientan satisfechos en sus necesidades y deseos.</p>
+			<p>CUMPLIMIENTO: Respetar los tiempos de compromiso a los clientes a la hora de realizar las instalaciones.</p>
+
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
+
 
 
       <hr class="featurette-divider">
@@ -159,9 +109,9 @@
       <div class="col-lg-3">
       <h4 class="center">Quiénes Somos</h4>
       <ul class="center">
-      <li><a href="society#mision">Misión</a></li>
-      <li><a href="society#vision">Visión</a></li>
-      <li><a href="society#valores">Valores</a></li>
+      <li>Misión</li>
+      <li>Visión</li>
+      <li>Valores</li>
       <li>Equipo</li>
       </ul>
       </div>
