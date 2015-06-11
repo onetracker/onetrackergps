@@ -15,7 +15,7 @@
     <link href="api/style.css" rel="stylesheet">
 
 	<!-- SEO -->	
-	<meta name="keywords" content="gps,localizacion,ubicacion,monitoreo,satelital,vehiculos,maquinaria,amarilla,transporte,control,familiar" />
+	<meta name="keywords" content="onetracker,onetrackergps,gps,localizacion,ubicacion,monitoreo,satelital,vehiculos,maquinaria,amarilla,transporte,control,familiar" />
     <meta property='og:title' content="Onetracker - Servicios de localización en tiempo real" /> <!-- facebook -->
     <meta property='og:description' content="Servicios de localización en tiempo real" />
     <meta property='og:type' content='website' />
@@ -31,48 +31,8 @@
 <!-- NAVBAR
 ================================================== -->
   <body>
-    <div class="navbar-wrapper">
-      <div class="container">
-
-        <nav class="navbar navbar-inverse navbar-static-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a href="#"><img src="img/logo.png" width="200" height="64" alt="logo"></a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="#">Maquinaria <br>Amarilla</a></li>
-                <li><a href="#">GPS <br>Familiar</a></li>
-                <li><a href="#">Localizador <br>Particular</a></li>
-                <li><a href="#">GPS en <br>Movimiento</a></li>
-                <li><a href="#">Transporte <br>y Control</a></li>
-                <li><a href="#">Contacto</a></li>
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" style="display:none;">Dropdown <span class="caret"></span></a>
-                  <ul class="dropdown-menu" role="menu">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li class="divider"></li>
-                    <li class="dropdown-header">Nav header</li>
-                    <li><a href="#">Separated link</a></li>
-                    <li><a href="#">One more separated link</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-
-      </div>
-    </div>
-
+  
+  	<?php include('template/menu.html'); ?>
 
     <!-- Carousel
     ================================================== -->
@@ -89,8 +49,6 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>GPS Rastreo satelital.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
             </div>
           </div>
         </div>
@@ -99,8 +57,7 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>Maquinaria Amarilla</h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris iaculis rhoncus dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
+              <p><a class="btn btn-lg btn-primary" href="maquinaria-amarilla" role="button">Ver más</a></p>
             </div>
           </div>
         </div>
@@ -109,8 +66,7 @@
           <div class="container">
             <div class="carousel-caption">
               <h1>Localizadores GPS para bicicletas.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Ver más</a></p>
+              <p><a class="btn btn-lg btn-primary" href="gps-en-movimiento" role="button">Ver más</a></p>
             </div>
           </div>
         </div>
@@ -134,24 +90,24 @@
 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-4">
-          <img src="img/transport-icon.png" width="80" height="98" alt="localizador personal">
-          <h2>Localizador personal</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-          <p><a class="btn btn-default" href="#" role="button">Leer más &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img src="img/bici.png" width="100" height="100" alt="bici">
-<h2>GPS En Movimiento</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-          <p><a class="btn btn-default" href="#" role="button">Leer más &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img src="img/iphone.png" width="60" height="94" alt="iphone">
-<h2>GPS Familiar</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-          <p><a class="btn btn-default" href="#" role="button">Leer más &raquo;</a></p>
-        </div><!-- /.col-lg-4 -->
+
+		<?php
+
+			foreach( $posts as $post ) {
+			
+				if ( $post->post_title == "Características de la plataforma" && $post->post_status == "publish" ) {
+		?>			
+					<div class="col-lg-12" align="center">
+					  <img src="img/transport-icon.png" width="80" height="98" alt="">
+					  <h2><?php echo $post->post_title; ?></h2>
+					  <p><?php echo implode(' ', array_slice(explode(' ', $post->post_content), 0, 24)) . "..."; ?></p>
+					  <p><a class="btn btn-default" href="<?php echo $post->guid; ?>" role="button">Leer más &raquo;</a></p>
+					</div><!-- /.col-lg-4 -->
+		<?php
+				} else {}
+			}
+		?>			
+
       </div><!-- /.row -->
 
 
@@ -160,31 +116,7 @@
 
 
       <!-- FOOTER -->
-      <footer>
-      <div class="row">
-      <div class="col-lg-3"></div>
-      <div class="col-lg-3">
-      <h4>Social</h4>
-      <ul class="social">
-      <li class="social"><img src="img/facebook.png" width="50" height="49" alt="facebook"></li>
-      <li class="social"><img src="img/twitter.png" width="50" height="49" alt="twitter"></li>
-      </ul>
-      </div>
-      <div class="col-lg-3">
-      <h4 class="center">Quiénes Somos</h4>
-      <ul class="center">
-      <li><a href="society#mision">Misión</a></li>
-      <li><a href="society#vision">Visión</a></li>
-      <li><a href="society#valores">Valores</a></li>
-      <li>Equipo</li>
-      </ul>
-      </div>
-      <div class="col-lg-3"></div>
-      </div>
-      <br><br>
-        <p class="pull-right"><a href="#"><img src="img/back_to_top_icon_regular.png" width="80" height="80" alt="back to top"></a></p>
-        <div class="col-lg-12 center">&copy; 2015 One Tracker &middot; <a href="#">Privacidad</a> &middot; <a href="#">Terminos</a></div>
-      </footer>
+<?php include('template/footer.html'); ?>
 
     </div><!-- /.container -->
 

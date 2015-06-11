@@ -22,7 +22,6 @@
 
 
 
-
     <!-- Marketing messaging and featurettes
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
@@ -33,19 +32,10 @@
       <div class="row">
         <div class="col-lg-12" align="center">
 
-			<br/><br/><br/><br/><br/><br/><br/><h2 id="mision">MISION</h2>
-			<p>Hemos asumido el compromiso y la responsabilidad de representar, defender y promover las actividades de monitoreo satelital vehicular de GPS con la más alta calidad en Colombia, proporcionándoles servicios de calidad que cumplan con las expectativas y  anticiparnos a las necesidades con excelencia, efectividad y desarrollo de nuestros clientes y colaboradores.</p>
-			
-			<br/><br/><br/><br/><br/><h2 id="vision">VISION</h2>
-			<p>Posicionarnos para el 2016  en el mercado de las principales ciudades a nivel nacional,   alcanzando el liderazgo y garantizando  la protección a quienes requieran de nuestros servicios para que tengan la confianza y tranquilidad de contar con la empresa de más rápido y mejor crecimiento a nivel mundial.</p>
-			
-			<br/><br/><br/><br/><br/><h2 id="valores">VALORES</h2>
-			
-			<p>CALIDAD: Garantizar que los productos y servicios ofrecidos sean de excelencia.</p>
-			<p>HONESTIDAD: Promover la verdad como una herramienta elemental para generar confianza y la credibilidad de la empresa.</p>
-			<p>SERVICIO: La empresa se compromete a entregar bienes y servicios de calidad. </p>
-			<p>CONFIDENCIALIDAD: Generar un vínculo de confianza, donde los clientes se sientan satisfechos en sus necesidades y deseos.</p>
-			<p>CUMPLIMIENTO: Respetar los tiempos de compromiso a los clientes a la hora de realizar las instalaciones.</p>
+			<br/><br/><br/><br/><br/><br/><br/>
+			<img src="img/transport-icon.png" width="80" height="98" alt="">
+			<h2 id="mision">LOCALIZADOR PARTICULAR</h2>
+			<p>Localización y seguimiento de personas y pertenencias. Con base en tecnología 'wearable' en dispositivos como relojes y accesorios.</p>
 
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->
