@@ -40,8 +40,9 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Este es el negocio OneTracker para Laravel 5</div>
+				<div class="title">Este es un mensaje de OneTracker</div>
 				<div class="quote">{{ Inspiring::quote() }}</div>
+				<div><?php echo $text; ?></div>
 			</div>
 		</div>
 	</body>

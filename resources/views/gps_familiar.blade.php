@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>One Tracker</title>
+    <meta name="author" content="OneTracker GPS">
 
     <link href="api/bootstrap.min.css" rel="stylesheet">
-
     <link href="api/style.css" rel="stylesheet">
+
+	<!-- SEO -->	
+    <title>GPS familiar OneTracker GPS</title>
+
+	<meta name="description" content="Localización y seguimiento en tiempo real con tecnología de vanguardia de usos cotidianos familiar en el día a día, mascotas y seres queridos" />
+	<meta name="keywords" content="onetracker,onetrackergps,one,tracker,gps,monitoreo,familiar,cotidiano,usos,mascotas,seres,queridos" />
+    <meta property='og:title' content="GPS familiar" /> <!-- facebook -->
+    <meta property='og:description' content="Localización y seguimiento en tiempo real con tecnología de vanguardia de usos cotidianos familiar en el día a día, mascotas y seres queridos" />
+    <meta property='og:type' content='website' />
+    <meta property='og:url' content='http://onetrackergps.co/gps-familiar' />
+	<meta property="og:site_name" content="GPS familiar">    
   </head>
 <!-- NAVBAR
 ================================================== -->
   <body>
-<?php include('template/menu.html'); ?>
+	<?php include_once("analyticstracking.php") ?>
+	<?php include('template/menu.html'); ?>
 
 
 
@@ -58,9 +66,5 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="api/bootstrap.min.js"></script>
-    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
