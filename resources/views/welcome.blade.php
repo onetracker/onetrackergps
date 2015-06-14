@@ -63,8 +63,8 @@
           <img class="second-slide" src="img/maquinaris.jpg" style="max-width:100%;" width="2000" height="1000" alt="first-slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Maquinaria Amarilla</h1>
-              <p><a class="btn btn-lg btn-primary" href="maquinaria-amarilla" role="button">Ver más</a></p>
+              <h1>Rastreo de Maquinaria</h1>
+              <p><a class="btn btn-lg btn-primary" href="rastreo-de-maquinaria" role="button">Ver más</a></p>
             </div>
           </div>
         </div>

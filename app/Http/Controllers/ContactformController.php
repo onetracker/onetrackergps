@@ -57,14 +57,27 @@ class ContactformController extends Controller {
 		/*
 		INFORMAMOS
 		*/
-		$meesage = 'Hola. Ha habido un contacto niños';
-		Mail::send('hola', array('html' => 'view', 'message' => $meesage), function($message)
+		$text = $request->name . " " . $request->email . " ha escrito: " . $request->text;
+		Mail::send('hola', array('text' => $text, 'message' => $text), function($message)
 		{
-			$message->to('barcodepandora@gmail.com', 'German')->subject('Ha habido un contacto!');
+			$message->from('infoonetrackergps@gmail.com', 'OneTrackerGPS');
+			$message->to('servicio@onetrackergps.co', 'Mensaje nuevo desde contacto')->subject('Mensaje nuevo desde contacto');
+			$message->cc("infoonetrackergps@gmail.com");
 		});
+
+// CORCEL
+		$params = array(
+			'database'  => 'otgps_blog',
+			'username'  => 'otgps_master',
+			'password'  => 'R0s6l3sg',
+			'prefix'    => 'wp_' // default prefix is 'wp_', you can change to your own prefix
+		);
+		\Corcel\Database::connect($params);
+		//$posts = \Corcel\Post::published()->get();
+		$posts = \Corcel\Post::where('post_content', 'LIKE', "%%")->get();
 		
 		//return redirect('ccservice/');
-		return view('welcome');
+		return view('welcome', compact('posts'));
 	}
 }
 

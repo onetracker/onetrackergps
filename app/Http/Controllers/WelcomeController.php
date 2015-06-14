@@ -30,7 +30,19 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+
+// CORCEL
+		$params = array(
+			'database'  => 'otgps_blog',
+			'username'  => 'otgps_master',
+			'password'  => 'R0s6l3sg',
+			'prefix'    => 'wp_' // default prefix is 'wp_', you can change to your own prefix
+		);
+		\Corcel\Database::connect($params);
+		//$posts = \Corcel\Post::published()->get();
+		$posts = \Corcel\Post::where('post_content', 'LIKE', "%%")->get();
+
+		return view('welcome', compact('posts'));
 	}
 
 	public function hola()
@@ -38,9 +50,39 @@ class WelcomeController extends Controller {
 		return view('hola');
 	}
 
-	public function society()
+	public function sociedad()
 	{
-		return view('society');
+		return view('sociedad');
+	}
+
+	public function rastreo_maquinaria()
+	{
+		return view('rastreo_maquinaria');
+	}
+
+	public function rastreo_personas()
+	{
+		return view('rastreo_personas');
+	}
+
+	public function rastreo_automoviles()
+	{
+		return view('rastreo_automoviles');
+	}
+
+	public function rastreo_motos()
+	{
+		return view('rastreo_motos');
+	}
+
+	public function rastreo_bicicletas()
+	{
+		return view('rastreo_bicicletas');
+	}
+
+	public function administracione_control()
+	{
+		return view('administracione_control');
 	}
 
 }
