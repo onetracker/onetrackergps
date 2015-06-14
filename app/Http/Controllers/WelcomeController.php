@@ -80,9 +80,9 @@ class WelcomeController extends Controller {
 		return view('rastreo_bicicletas');
 	}
 
-	public function administracione_control()
+	public function administracion_control()
 	{
-		return view('administracione_control');
+		return view('administracion_control');
 	}
 
 }

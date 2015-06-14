@@ -30,4 +30,4 @@ Route::get('rastreo-de-personas', 'WelcomeController@rastreo_personas');
 Route::get('rastreo-de-automoviles', 'WelcomeController@rastreo_automoviles');
 Route::get('rastreo-de-motos', 'WelcomeController@rastreo_motos');
 Route::get('rastreo-de-bicicletas', 'WelcomeController@rastreo_bicicletas');
-Route::get('administracion-y-control', 'WelcomeController@administracione_control');
+Route::get('administracion-y-control', 'WelcomeController@administracion_control');

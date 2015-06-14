@@ -11,15 +11,15 @@
     <link href="api/style.css" rel="stylesheet">
 
 	<!-- SEO -->	
-    <title>Rastreo de bicicletas OneTracker GPS</title>
+    <title>Administracion y control OneTracker GPS</title>
 
-	<meta name="description" content="La solución de localización y seguimiento más apropiada para un desplazamiento seguro en bicicleta a traves dispositivos livianos" />
-	<meta name="keywords" content="onetracker,onetrackergps,one,tracker,gps,monitoreo,desplazamiento,seguro,bicicletas,dispositivos,livianos" />
-    <meta property='og:title' content="Rastreo de bicicletas" /> <!-- facebook -->
-    <meta property='og:description' content="La solución de localización y seguimiento más apropiada para un desplazamiento seguro en bicicleta a traves dispositivos livianos." />
+	<meta name="description" content="La solución de gestión de transporte más óptima para su negocio. Seguimiento y gestión de flotas de transporte, manejode alertas, tiempos de desplazamiento y estado de vehículos" />
+	<meta name="keywords" content="onetracker,onetrackergps,one,tracker,gps,monitoreo,transporte,control,flotas,alertas,tiempos,desplazamiento,estado" />
+    <meta property='og:title' content="Administracion y control" /> <!-- facebook -->
+    <meta property='og:description' content="La solución de gestión de transporte más óptima para su negocio. Seguimiento y gestión de flotas de transporte, manejode alertas, tiempos de desplazamiento y estado de vehículos" />
     <meta property='og:type' content='website' />
-    <meta property='og:url' content='http://onetrackergps.co/rastreo-de-bicicletas' />
-	<meta property="og:site_name" content="Rastreo de bicicletas">    
+    <meta property='og:url' content='http://onetrackergps.co/transporte-y-control' />
+	<meta property="og:site_name" content="Administracion y control">    
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -41,9 +41,9 @@
         <div class="col-lg-12" align="center">
 
 			<br/><br/><br/><br/><br/><br/><br/>
-			<img src="img/bici.png" width="80" height="98" alt="">
-			<h2 id="mision">RASTREO DE BICICLETAS</h2>
-			<p>La solución de localización y seguimiento más apropiada para un desplazamiento seguro en bicicleta a traves dispositivos livianos.</p>
+			<img src="img/transport-icon.png" width="80" height="98" alt="">
+			<h2 id="mision">ADMINISTRACION Y CONTROL</h2>
+			<p>La solución de gestión de transporte más óptima para su negocio. Seguimiento y gestión de flotas de transporte, manejode alertas, tiempos de desplazamiento y estado de vehículos</p>
 
         </div><!-- /.col-lg-4 -->
       </div><!-- /.row -->

@@ -11,15 +11,15 @@
     <link href="api/style.css" rel="stylesheet">
 
 	<!-- SEO -->	
-    <title>Maquinaria amarilla OneTracker GPS</title>
+    <title>Rastreo de maquinaria OneTracker GPS</title>
 
 	<meta name="description" content="Monitoreo, seguimiento y gestión en desarrollo y avances de grandes construcciones en todo tipo de topografías en tiempo real con precisión" />
 	<meta name="keywords" content="onetracker,onetrackergps,one,tracker,gps,monitoreo,grandes,construcciones,topografias,precision" />
-    <meta property='og:title' content="Maquinaria amarilla" /> <!-- facebook -->
+    <meta property='og:title' content="Rastreo de maquinaria" /> <!-- facebook -->
     <meta property='og:description' content="Monitoreo, seguimiento y gestión en desarrollo y avances de grandes construcciones en todo tipo de topografías en tiempo real con precisión" />
     <meta property='og:type' content='website' />
-    <meta property='og:url' content='http://onetrackergps.co/maquinaria-amarilla' />
-	<meta property="og:site_name" content="Maquinaria amarilla">    
+    <meta property='og:url' content='http://onetrackergps.co/rastreo-de-maquinaria' />
+	<meta property="og:site_name" content="Rastreo de maquinaria">    
   </head>
 <!-- NAVBAR
 ================================================== -->

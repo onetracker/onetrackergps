@@ -11,15 +11,15 @@
     <link href="api/style.css" rel="stylesheet">
 
 	<!-- SEO -->	
-    <title>GPS en movimiento OneTracker GPS</title>
+    <title>Rastreo de motos OneTracker GPS</title>
 
-	<meta name="description" content="La solución de localización y seguimiento más apropiada para un desplazamiento seguro. Localización, seguimiento y rastreo de vehículos particulares, autos, bicicletas, motos" />
-	<meta name="keywords" content="onetracker,onetrackergps,one,tracker,gps,monitoreo,desplazamiento,seguro,vehiculos,autos,bicicletas,motos" />
-    <meta property='og:title' content="GPS en movimiento" /> <!-- facebook -->
-    <meta property='og:description' content="La solución de localización y seguimiento más apropiada para un desplazamiento seguro. Localización, seguimiento y rastreo de vehículos particulares, autos, bicicletas, motos" />
+	<meta name="description" content="La solución de localización y seguimiento más apropiada para un desplazamiento seguro para motos particulares, negocio y servicio público" />
+	<meta name="keywords" content="onetracker,onetrackergps,one,tracker,gps,monitoreo,desplazamiento,seguro,motos,particulares,negocio,oficiales" />
+    <meta property='og:title' content="Rastreo de motos" /> <!-- facebook -->
+    <meta property='og:description' content="La solución de localización y seguimiento más apropiada para un desplazamiento seguro para motos particulares, negocio y servicio público" />
     <meta property='og:type' content='website' />
-    <meta property='og:url' content='http://onetrackergps.co/gps-en-movimiento' />
-	<meta property="og:site_name" content="GPS en movimiento">    
+    <meta property='og:url' content='http://onetrackergps.co/rastreo-de-motos' />
+	<meta property="og:site_name" content="Rastreo de motos">    
   </head>
 <!-- NAVBAR
 ================================================== -->

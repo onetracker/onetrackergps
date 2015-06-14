@@ -11,15 +11,15 @@
     <link href="api/style.css" rel="stylesheet">
 
 	<!-- SEO -->	
-    <title>GPS familiar OneTracker GPS</title>
+    <title>Rastreo de personas OneTracker GPS</title>
 
-	<meta name="description" content="Localización y seguimiento en tiempo real con tecnología de vanguardia de usos cotidianos familiar en el día a día, mascotas y seres queridos" />
-	<meta name="keywords" content="onetracker,onetrackergps,one,tracker,gps,monitoreo,familiar,cotidiano,usos,mascotas,seres,queridos" />
-    <meta property='og:title' content="GPS familiar" /> <!-- facebook -->
-    <meta property='og:description' content="Localización y seguimiento en tiempo real con tecnología de vanguardia de usos cotidianos familiar en el día a día, mascotas y seres queridos" />
+	<meta name="description" content="Localización y seguimiento en tiempo real con tecnología de vanguardia de seres queridos y mascotas" />
+	<meta name="keywords" content="onetracker,onetrackergps,one,tracker,gps,monitoreo,familiar,mascotas,seres,queridos" />
+    <meta property='og:title' content="Rastreo de personas" /> <!-- facebook -->
+    <meta property='og:description' content="Localización y seguimiento en tiempo real con tecnología de vanguardia de seres queridos y mascotas" />
     <meta property='og:type' content='website' />
-    <meta property='og:url' content='http://onetrackergps.co/gps-familiar' />
-	<meta property="og:site_name" content="GPS familiar">    
+    <meta property='og:url' content='http://onetrackergps.co/rastreo-de-personas' />
+	<meta property="og:site_name" content="Rastreo de personas">    
   </head>
 <!-- NAVBAR
 ================================================== -->

@@ -11,15 +11,15 @@
     <link href="api/style.css" rel="stylesheet">
 
 	<!-- SEO -->	
-    <title>GPS en movimiento OneTracker GPS</title>
+    <title>Rastreo de automoviles OneTracker GPS</title>
 
-	<meta name="description" content="La solución de localización y seguimiento más apropiada para un desplazamiento seguro. Localización, seguimiento y rastreo de vehículos particulares, autos, bicicletas, motos" />
-	<meta name="keywords" content="onetracker,onetrackergps,one,tracker,gps,monitoreo,desplazamiento,seguro,vehiculos,autos,bicicletas,motos" />
+	<meta name="description" content="La solución de localización y seguimiento más apropiada para un desplazamiento seguro. Localización, seguimiento y rastreo de vehículos particulares y oficiales." />
+	<meta name="keywords" content="onetracker,onetrackergps,one,tracker,gps,monitoreo,desplazamiento,seguro,vehiculos,particulares,oficiales" />
     <meta property='og:title' content="GPS en movimiento" /> <!-- facebook -->
-    <meta property='og:description' content="La solución de localización y seguimiento más apropiada para un desplazamiento seguro. Localización, seguimiento y rastreo de vehículos particulares, autos, bicicletas, motos" />
+    <meta property='og:description' content="La solución de localización y seguimiento más apropiada para un desplazamiento seguro. Localización, seguimiento y rastreo de vehículos particulares y oficiales." />
     <meta property='og:type' content='website' />
-    <meta property='og:url' content='http://onetrackergps.co/gps-en-movimiento' />
-	<meta property="og:site_name" content="GPS en movimiento">    
+    <meta property='og:url' content='http://onetrackergps.co/rastreo-de-automoviles' />
+	<meta property="og:site_name" content="Rastreo de automoviles">    
   </head>
 <!-- NAVBAR
 ================================================== -->
